@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.874);
+    width: 100vw;
+}
+.header{
+    height: 100vh;
+    background-image: url(resources/images/BackImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.612);
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.header .topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+}
+.header .topbar #languages{
+    height: 30px;
+    width: 100px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+}
+.header .topbar #BtnSingIn{
+    color: white;
+    background-color: transparent;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 0px solid blanchedalmond;
+    margin: 0 10px;
+}
+.overlay .box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.box1 .mainheadding{
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+}
+.box1 h1{
+    font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.box1 h3{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+#email{
+    width: 350px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 16px;
+    color: white;   
+}
+#email::placeholder{
+    color: rgb(206, 203, 203);
+}
+#BtnGetStarted{
+    width: 200px;
+    height: 56px;
+    border: 0px solid ;
+    background-color: red;
+    border-radius: 5px;
+    margin: 10px;
+}
+#BtnGetStarted pre{
+    color: white;
+    font-size: 2rem;
+}
+.box1 .box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mainpart .box1{
+    display: flex;
+    margin-top: 20px;
+}
+.box1 .gallery{
+    display: flex;
+    width: 88%;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+}
+.gallery .card{
+    height: 250px;
+    min-width: 200px;
+    background-color: lightblue;
+    margin: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 7px 7px 8px 7px rgba(100, 159, 219, 0.553);
+}
+.card h1{
+    font-size: 4rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#BtnLeftAero,#BtnRightAero{
+    width: 40px;
+    height: 100px;
+    align-self: center;
+    margin: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: rgba(92, 91, 91, 0.399);
+    border: 0;
+    border-radius: 13px;
+}
+
+
+
+
+/* media querys to responshiv website*/
+@media only screen and (max-height: 570px) {
+    .header{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .box1 h1{
+        margin-bottom: 10px;
+    }
+
+}
+@media only screen and (max-width: 818px) {
+    .box1 .mainheadding{
+        font-size: 4rem;
+    }
+    .box1 h1{
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 654px) {
+    .box1 .mainheadding{
+        font-size: 3rem;
+    }
+    .box1 h1{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 494px) {
+    .box1 .mainheadding{
+        font-size: 2rem;
+    }
+    #email{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .overlay .topbar{
+        width: 95%;
+    }
+    .overlay .box1{
+        width: 95%;
+    }
+}
