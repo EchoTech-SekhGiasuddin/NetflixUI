@@ -3,6 +3,7 @@
     padding: 0;
     font-family: sans-serif;
     font-size: 12px;
+    box-sizing: border-box;
 }
 body{
     background-color: rgba(255, 255, 255, 0.874);
@@ -179,6 +180,62 @@ body{
     position: absolute;
     bottom: 0;
     right: 5px;
+}
+.mainpart .box3{
+    width: 90vw;
+    margin: auto;
+}
+.mainpart .box3 .heading{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.mainpart .box3 .qustion{
+    background-color: gray;
+    height: 80px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.mainpart .box3 .qustion span{
+    font-size: 1.5rem;
+    color: white;
+}
+.mainpart .box3 .qustion span:last-child{
+    font-size: 5rem;
+}
+.mainpart .box4{
+    text-align: center;
+    margin-top: 5em;
+}
+.mainpart .box4 .head{
+    font-weight: 700;
+}
+.mainpart .box4 .inerbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.inerbox #secendemail{
+    width: 400px;
+    height: 45px;
+    margin: 10px;
+    padding: 8px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
+.inerbox #BtnSubmit{
+    height: 45px;
+    margin: 10px;
+    width: 150px;
+    border: 0;
+    color: white;
+    background-color: orangered;
+    border-radius: 8px;
+}
+.inerbox pre{
+    font-size: 1.5rem;
 }
 
 
