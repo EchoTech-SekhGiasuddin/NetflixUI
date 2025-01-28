@@ -5,7 +5,7 @@
     font-size: 12px;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.874);
+    background-color: rgba(255, 255, 255, 0.874);
     width: 100vw;
 }
 .header{
@@ -104,11 +104,13 @@ body{
     display: flex;
     margin-top: 20px;
 }
+
+.mainpart .box1 .gallerycontenor{
+    overflow: hidden;
+    width: 88%;
+}
 .box1 .gallery{
     display: flex;
-    width: 88%;
-    overflow: hidden;
-    transition: transform 0.5s ease;
 }
 .gallery .card{
     height: 250px;
@@ -117,13 +119,17 @@ body{
     margin: 20px;
     position: relative;
     border-radius: 5px;
-    box-shadow: 7px 7px 8px 7px rgba(100, 159, 219, 0.553);
+    box-shadow: 7px 7px 8px 7px rgba(17, 18, 18, 0.553);
 }
 .card h1{
     font-size: 4rem;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: -5px;
+    left: 10px;
+    color: red;
+}
+.card img{
+    border-radius: 5px;
 }
 #BtnLeftAero,#BtnRightAero{
     width: 40px;
@@ -137,9 +143,6 @@ body{
     border: 0;
     border-radius: 13px;
 }
-
-
-
 
 /* media querys to responshiv website*/
 @media only screen and (max-height: 570px) {
