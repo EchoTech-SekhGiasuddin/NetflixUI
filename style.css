@@ -143,6 +143,47 @@ body{
     border: 0;
     border-radius: 13px;
 }
+.mainpart .box2{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.mainpart .box2 .card{
+    background-color: rgb(111, 109, 107);
+    height: 250px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 5px;
+    padding: 10px;
+    position: relative;
+}
+.mainpart .box2 .card span{
+    font-size: 2rem;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+.mainpart .box2 .card p{
+    font-size: 1.3rem;
+    margin: 10px;
+    color: rgb(216, 207, 207);
+}
+.mainpart .box2 .card img{
+    font-size: 1.3rem;
+    margin: 10px;
+    color: rgb(216, 207, 207);
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+
+
+
 
 /* media querys to responshiv website*/
 @media only screen and (max-height: 570px) {
