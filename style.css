@@ -237,7 +237,42 @@ body{
 .inerbox pre{
     font-size: 1.5rem;
 }
-
+footer {
+    width: 90vw;
+    margin: auto;
+    padding: 5px;
+}
+footer .box1{
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+footer #footerlanguages{
+    height: 30px;
+    width: 100px;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+footer .box2 .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .box2 .card span{
+    width: 265px;
+    margin: 5px 0;
+}
+footer .box2 .card a{
+    color: black;
+}
+footer .box2 .card a:hover{
+    color: orangered;
+}
+footer .box4{
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
 
 
 
